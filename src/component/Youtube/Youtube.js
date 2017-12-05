@@ -28,6 +28,7 @@ class Youtube extends Component {
       const vidUrl = 'https://www.youtube.com/embed/' + vid;
       var frame = (
         <iframe
+          key={keys}
           width="560"
           height="315"
           src={vidUrl}

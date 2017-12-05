@@ -4,7 +4,7 @@ const header = () => {
   return (
     <nav>
       <div className="nav-wrapper">
-        <a href="#" class="brand-logo">
+        <a href="#" className="brand-logo">
           Logo
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
