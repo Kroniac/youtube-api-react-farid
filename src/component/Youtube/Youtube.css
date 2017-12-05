@@ -1,5 +1,7 @@
 .youtube {
-  padding: 10px 10xp;
-  margin: 10px 10px;
+  
+  margin: 20px 10px;
+  border: 3px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  padding: 30px 300xp;
 }
-
