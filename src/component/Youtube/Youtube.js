@@ -51,6 +51,7 @@ class Youtube extends Component {
       const vidUrl = 'https://www.youtube.com/embed/' + vid;
       var frame = (
         <iframe
+          className="yt"
           key={keys}
           width="560"
           height="315"
@@ -70,7 +71,10 @@ class Youtube extends Component {
 
     return (
       <div>
-        <Input changed={this.onChangeHandler} value={this.state.record} />
+        <Input
+          changed={this.onChangeHandler}
+          value={this.state.record}
+        />
         <Button clicked={this.result} />
         <div className="youtube">{vids}</div>
       </div>
